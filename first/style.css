@@ -1,0 +1,84 @@
+
+html, body {
+    width: 90%;
+    height: 100%;
+
+
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+
+}
+
+.box {
+    height: 90%;
+    width: 25%;
+
+}
+
+main {
+    width: 91%;
+    margin: 0 auto;
+}
+
+.red {
+  background: rgb(208,2,27);
+}
+
+.blue {
+  background: rgb(74,144,226);
+}
+
+.black {
+ background: rgb(74,74,74);
+}
+
+.lower-section {
+    display: flex;
+    justify-content: space-around;
+    width: 91%;
+    height: 30%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.lowerLeftBox {
+    height: 100%;
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.lowerRightBox {
+    height: 100%;
+    width: 75%;
+    float: left;
+    padding: 0;
+}
+
+.bottomBox {
+    height: 20%;
+    width: 91%;
+    margin: 20px auto;
+}
+
+.bottomRightBox {
+   float: right;
+    width: 20%;
+    height: 100%;
+
+}
+
+.blackBox {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
